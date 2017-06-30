@@ -5,5 +5,5 @@ ssl_cert_city: Santa Clara
 ssl_cert_organization: IT
 ssl_cert_lifetime: 365
 ssl_directory: "/etc/myssl"
-ssl_cert: "{{ ssl_directory }}/{{ ssl_cert_cn }}.crt"
-ssl_key: "{{ ssl_directory }}/{{ ssl_cert_cn }}.key"
+ssl_cert_path: "{{ ssl_directory }}/{{ ssl_cert_cn }}.crt"
+ssl_key_path: "{{ ssl_directory }}/{{ ssl_cert_cn }}.key"
