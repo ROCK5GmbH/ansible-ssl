@@ -1,5 +1,5 @@
-#Ansible role to set up a self signed certificate
-##Usage
+# Ansible role to set up a self signed certificate
+## Usage
 You must set the `ssl_cert_cn` to the common name (FQDN) of the host the certificate is for.
 If the certificate and key already exist, they will not be overwritten.
 
